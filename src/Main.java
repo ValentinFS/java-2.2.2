@@ -8,8 +8,7 @@ public class Main {
         float height = 1.9f;
 
         float bmi = bodyMassIndex.calculate(weight, height);
-        int bmitotal = (int) bmi;
-        System.out.println("Индекс массы тела = " + bmitotal);
+        System.out.println("Индекс массы тела = " + bmi);
 
 
 
